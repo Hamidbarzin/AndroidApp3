@@ -20,4 +20,11 @@
         android:layout_below="@id/placeholder_text"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/next_button"
+        android:layout_marginTop="20dp" />
 </RelativeLayout>
